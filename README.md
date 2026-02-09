@@ -2,7 +2,6 @@
 
 A modern, full-stack e-commerce web application with a clean UI, shopping cart functionality, and MongoDB backend. Built with vanilla JavaScript, HTML/CSS, and Python FastAPI.
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)
 ![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
 
@@ -73,13 +72,10 @@ cp .env.example .env
 
 ### 3. Start MongoDB
 
-**Using Docker:**
-```bash
-docker run -d -p 27017:27017 --name mongodb mongo:latest
-```
-
-**Or install MongoDB locally:**
-- [MongoDB Download](https://www.mongodb.com/try/download/community)
+**Install MongoDB locally:**
+- Download from: [MongoDB Download](https://www.mongodb.com/try/download/community)
+- Install and start MongoDB service
+- Ensure it's running on `localhost:27017`
 
 ### 4. Run the Backend Server
 
@@ -262,27 +258,14 @@ ALLOWED_ORIGINS=http://localhost:3000,http://localhost:5500
 
 ---
 
-## 🐳 Docker Deployment
-
-### Run with Docker Compose
-```bash
-cd backend
-docker-compose up -d
-```
-
-This will start both MongoDB and the FastAPI backend.
 
 ---
 
-## 🤝 Contributing
+## 🙏 Acknowledgments
 
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+- Product images are for demonstration purposes
+- Icons from custom design
+- Jasmine testing framework
 
 ---
 
