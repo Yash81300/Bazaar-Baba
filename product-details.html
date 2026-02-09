@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <title>Product Details</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="styles/shared/general.css">
+  <link rel="stylesheet" href="styles/shared/bazaar-baba-header.css">
+  <link rel="stylesheet" href="styles/shared/theme-dark.css">
+
+  
+  <link rel="stylesheet" href="styles/pages/product-details.css">
+</head>
+
+<body>
+
+  
+  <div class="bazaar-baba-header">
+    <div class="bazaar-baba-header-left-section">
+      <a href="bazaar-baba.html" class="header-link bazaar-baba-logo-container">
+        <img class="bazaar-baba-logo" id="desktop-logo" src="images/bazaar-baba-logo.png">
+        <img class="bazaar-baba-mobile-logo" id="mobile-logo" src="images/bazaar-baba-mobile.png">
+      </a>
+    </div>
+
+    <div class="bazaar-baba-header-middle-section">
+      <input class="search-bar" type="text" placeholder="Search Bazaar Baba">
+      <button class="search-button">
+        <img class="search-icon" src="images/icons/search-icon.png">
+      </button>
+    </div>
+
+    <div class="bazaar-baba-header-right-section">
+      <a class="orders-link" href="orders.html">
+        <div class="orders-text-container">
+          <span class="returns-text">Returns</span>
+          <span class="orders-text">Orders</span>
+        </div>
+        <img class="your-orders-icon" id="orders-logo" src="images/your-orders-logo.png">
+      </a>
+
+      <a class="cart-link header-link" href="checkout.html">
+        <img class="cart-icon" src="images/icons/cart-icon.png">
+        <div class="cart-quantity js-cart-quantity">0</div>
+        <div class="cart-text">Cart</div>
+      </a>
+    </div>
+  </div>
+
+  
+  <div class="main-container">
+
+    
+    <div class="breadcrumb">
+      <a href="bazaar-baba.html" class="breadcrumb-link">Home</a> / <span class="js-product-name">Loading...</span>
+    </div>
+
+    
+    <div class="product-details-card">
+      <div class="product-details-grid">
+
+        
+        <div class="product-image-section">
+          <div class="image-thumbnails">
+            <img src="" class="thumbnail active js-thumbnail-1">
+            <img src="" class="thumbnail js-thumbnail-2">
+            <img src="" class="thumbnail js-thumbnail-3">
+            <img src="" class="thumbnail js-thumbnail-4">
+          </div>
+
+          <div class="main-image-wrapper">
+            <img class="js-product-image main-product-image" src="" alt="Product Image">
+          </div>
+        </div>
+
+        
+        <div class="product-info-container">
+
+          <h1 class="product-title js-product-name">Loading...</h1>
+
+          <div class="rating-row">
+            <img class="js-rating-stars rating-stars" src="">
+            <span class="js-rating-count rating-count">(0 Reviews)</span>
+            <span class="divider">|</span>
+            <span class="stock-badge">In Stock</span>
+          </div>
+
+          <div class="product-price js-product-price"></div>
+
+          <p class="product-description js-product-description">
+            Loading product description...
+          </p>
+
+          
+          <div class="option-group js-color-section" style="display: none;">
+            <label>Colours:</label>
+            <div class="color-options js-color-options">
+              
+            </div>
+          </div>
+
+          
+          <div class="option-group js-size-section" style="display: none;">
+            <label>Size:</label>
+            <div class="size-options js-size-options">
+              
+            </div>
+          </div>
+
+          
+          <div class="buy-row">
+            <div class="quantity-stepper">
+              <button type="button" class="qty-btn qty-minus">−</button>
+              <input type="text" class="qty-value js-quantity-selector" value="1" readonly>
+              <button type="button" class="qty-btn qty-plus">+</button>
+            </div>
+
+            <button class="buy-now-button js-add-to-cart">Add to Cart</button>
+            <button class="wishlist-btn">♡</button>
+          </div>
+
+          
+          <div class="delivery-info">
+            <div class="delivery-item">
+              <div class="delivery-icon">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="40" height="40" rx="20" fill="rgba(0, 0, 0, 0.05)"/>
+                  <path d="M11.5 28H28.5M20 11V28M15 16C16.5 15 18 14.5 20 13.5C22 14.5 23.5 15 25 16" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Free Delivery</strong>
+                <p>Enter your postal code for Delivery Availability</p>
+              </div>
+            </div>
+            <div class="delivery-item">
+              <div class="delivery-icon">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="40" height="40" rx="20" fill="rgba(0, 0, 0, 0.05)"/>
+                  <path d="M20 28C24.4183 28 28 24.4183 28 20C28 15.5817 24.4183 12 20 12C15.5817 12 12 15.5817 12 20C12 24.4183 15.5817 28 20 28Z" stroke="#333" stroke-width="2"/>
+                  <path d="M17 19L19.5 21.5L23 18" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Return Delivery</strong>
+                <p>Free 30 Days Delivery Returns. Details</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  
+  <script src="scripts/theme.js"></script>
+  <script src="scripts/logo-switcher.js"></script>
+
+  
+  <script type="module" src="data/products.js"></script>
+  <script type="module" src="data/cart.js"></script>
+
+  
+  <script type="module" src="scripts/product-details.js"></script>
+
+</body>
+</html>

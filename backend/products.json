@@ -1,0 +1,886 @@
+[
+  {
+    "id": "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
+    "image": "images/products/athletic-cotton-socks-6-pairs.jpg",
+    "name": "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    "description": "Premium athletic socks designed for maximum comfort during workouts and daily wear. Made from breathable cotton blend with moisture-wicking technology to keep feet dry. Features reinforced heel and toe for enhanced durability, cushioned sole for impact protection, and arch support for all-day comfort. Perfect for running, gym sessions, or casual wear.",
+    "rating": {
+      "stars": 4.5,
+      "count": 87
+    },
+    "priceCents": 1090,
+    "keywords": [
+      "socks",
+      "sports",
+      "apparel"
+    ],
+    "type": "clothing",
+    "sizeChartLink": "images/clothing-size-chart.png",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": [
+      {"name": "Black/Gray", "hex": "#000000"},
+      {"name": "White", "hex": "#FFFFFF"},
+      {"name": "Navy", "hex": "#000080"}
+    ]
+  },
+  {
+    "id": "15b6fc6f-327a-4ec4-896f-486349e85a3d",
+    "image": "images/products/intermediate-composite-basketball.jpg",
+    "name": "Intermediate Size Basketball",
+    "description": "Official intermediate size basketball perfect for young players and competitive games. Features deep channel composite leather cover for superior grip and ball control. Designed for both indoor and outdoor play with excellent bounce consistency. Durable construction withstands regular use on various court surfaces. Ideal for practice, training, and recreational games.",
+    "rating": {
+      "stars": 4,
+      "count": 127
+    },
+    "priceCents": 2095,
+    "keywords": [
+      "sports",
+      "basketballs"
+    ],
+    "colors": [
+      {"name": "Orange", "hex": "#FF8C00"},
+      {"name": "Blue", "hex": "#1E90FF"},
+      {"name": "Black", "hex": "#000000"}
+    ]
+  },
+  {
+    "id": "83d4ca15-0f35-48f5-b7a3-1ea210004f2e",
+    "image": "images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg",
+    "name": "Adults Plain Cotton T-Shirt - 2 Pack",
+    "description": "Essential everyday t-shirts crafted from 100% premium cotton for ultimate softness and breathability. Classic crew neck design with reinforced shoulder seams ensures long-lasting wear. Pre-shrunk fabric maintains shape and size after washing. Versatile teal color pairs perfectly with any outfit. Ideal for layering or wearing solo in casual settings.",
+    "rating": {
+      "stars": 4.5,
+      "count": 56
+    },
+    "priceCents": 799,
+    "keywords": [
+      "tshirts",
+      "apparel",
+      "mens"
+    ],
+    "type": "clothing",
+    "sizeChartLink": "images/clothing-size-chart.png",
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "Teal", "hex": "#008080"},
+      {"name": "Black", "hex": "#000000"},
+      {"name": "Red", "hex": "#DB4444"},
+      {"name": "White", "hex": "#FFFFFF"},
+      {"name": "Navy", "hex": "#000080"}
+    ]
+  },
+  {
+    "id": "54e0eccd-8f36-462b-b68a-8182611d9add",
+    "image": "images/products/black-2-slot-toaster.jpg",
+    "name": "2 Slot Toaster - Black",
+    "description": "Sleek black toaster with dual wide slots accommodating various bread types including bagels and artisan loaves. Features adjustable browning control with 7 shade settings for perfect toast every time. Includes defrost, reheat, and cancel functions for added convenience. Removable crumb tray makes cleanup effortless. Compact design fits any kitchen counter perfectly.",
+    "rating": {
+      "stars": 5,
+      "count": 2197
+    },
+    "priceCents": 1899,
+    "keywords": [
+      "toaster",
+      "kitchen",
+      "appliances"
+    ]
+  },
+  {
+    "id": "3ebe75dc-64d2-4137-8860-1f5a963e534b",
+    "image": "images/products/6-piece-white-dinner-plate-set.jpg",
+    "name": "6 Piece White Dinner Plate Set",
+    "description": "Elegant white porcelain dinner plates perfect for everyday dining and special occasions. Durable chip-resistant construction withstands regular use while maintaining pristine appearance. Classic round shape with smooth edges complements any table setting. Microwave and dishwasher safe for easy reheating and cleanup. Versatile design pairs beautifully with colorful servingware.",
+    "rating": {
+      "stars": 4,
+      "count": 37
+    },
+    "priceCents": 2067,
+    "keywords": [
+      "plates",
+      "kitchen",
+      "dining"
+    ]
+  },
+  {
+    "id": "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
+    "image": "images/products/6-piece-non-stick-baking-set.webp",
+    "name": "6-Piece Nonstick, Carbon Steel Oven Bakeware Baking Set",
+    "description": "Complete baking set includes everything needed for perfect baked goods. Premium carbon steel construction ensures even heat distribution and superior baking results. Non-stick coating allows effortless food release and quick cleanup. Set includes cookie sheets, muffin pan, loaf pan, and more. Oven safe up to 450°F and built to last for years.",
+    "rating": {
+      "stars": 4.5,
+      "count": 175
+    },
+    "priceCents": 3499,
+    "keywords": [
+      "kitchen",
+      "cookware"
+    ]
+  },
+  {
+    "id": "dd82ca78-a18b-4e2a-9250-31e67412f98d",
+    "image": "images/products/plain-hooded-fleece-sweatshirt-yellow.jpg",
+    "name": "Plain Hooded Fleece Sweatshirt",
+    "description": "Cozy fleece hoodie designed for maximum warmth and comfort. Soft brushed interior traps heat while remaining breathable for all-day wear. Features adjustable drawstring hood, kangaroo pocket, and ribbed cuffs for perfect fit. Durable construction maintains shape and color through repeated washing. Ideal for layering or wearing as outerwear in cool weather.",
+    "rating": {
+      "stars": 4.5,
+      "count": 317
+    },
+    "priceCents": 2400,
+    "keywords": [
+      "hoodies",
+      "sweaters",
+      "apparel"
+    ],
+    "type": "clothing",
+    "sizeChartLink": "images/clothing-size-chart.png",
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "Yellow", "hex": "#FFD700"},
+      {"name": "Gray", "hex": "#808080"},
+      {"name": "Black", "hex": "#000000"},
+      {"name": "Navy", "hex": "#000080"},
+      {"name": "Maroon", "hex": "#800000"}
+    ]
+  },
+  {
+    "id": "77919bbe-0e56-475b-adde-4f24dfed3a04",
+    "image": "images/products/luxury-tower-set-6-piece.jpg",
+    "name": "Luxury Towel Set - Graphite Gray",
+    "description": "Premium 6-piece towel set crafted from 100% Turkish cotton for spa-like luxury. Ultra-absorbent and quick-drying while remaining incredibly soft and plush. Set includes bath towels, hand towels, and washcloths in sophisticated graphite gray. Double-stitched hems ensure long-lasting durability. Machine washable and maintains softness wash after wash.",
+    "rating": {
+      "stars": 4.5,
+      "count": 144
+    },
+    "priceCents": 3599,
+    "keywords": [
+      "bathroom",
+      "washroom",
+      "restroom",
+      "towels",
+      "bath towels"
+    ],
+    "colors": [
+      {"name": "Graphite Gray", "hex": "#383838"},
+      {"name": "White", "hex": "#FFFFFF"},
+      {"name": "Navy", "hex": "#000080"},
+      {"name": "Sage Green", "hex": "#87AE73"}
+    ]
+  },
+  {
+    "id": "3fdfe8d6-9a15-4979-b459-585b0d0545b9",
+    "image": "images/products/liquid-laundry-detergent-plain.jpg",
+    "name": "Liquid Laundry Detergent, 110 Loads, 82.5 Fl Oz",
+    "description": "High-efficiency liquid detergent delivers powerful cleaning for 110 loads. Advanced formula removes tough stains while protecting fabric colors and fibers. Works effectively in both standard and HE washing machines in all water temperatures. Hypoallergenic and gentle on sensitive skin. Concentrated formula provides excellent value and reduces plastic waste.",
+    "rating": {
+      "stars": 4.5,
+      "count": 305
+    },
+    "priceCents": 2899,
+    "keywords": [
+      "bathroom",
+      "cleaning"
+    ]
+  },
+  {
+    "id": "58b4fc92-e98c-42aa-8c55-b6b79996769a",
+    "image": "images/products/knit-athletic-sneakers-gray.jpg",
+    "name": "Waterproof Knit Athletic Sneakers - Gray",
+    "description": "Innovative waterproof sneakers combine style and functionality for active lifestyles. Breathable knit upper provides flexible comfort while water-resistant membrane keeps feet dry. Cushioned insole and responsive midsole deliver all-day comfort and support. Durable rubber outsole offers excellent traction on various surfaces. Perfect for running, walking, or casual wear in any weather.",
+    "rating": {
+      "stars": 4,
+      "count": 89
+    },
+    "priceCents": 3390,
+    "keywords": [
+      "shoes",
+      "running shoes",
+      "footwear"
+    ],
+    "sizes": ["7", "8", "9", "10", "11", "12", "13"],
+    "colors": [
+      {"name": "Gray", "hex": "#808080"},
+      {"name": "Black", "hex": "#000000"},
+      {"name": "White", "hex": "#FFFFFF"},
+      {"name": "Navy", "hex": "#000080"}
+    ]
+  },
+  {
+    "id": "5968897c-4d27-4872-89f6-5bcb052746d7",
+    "image": "images/products/women-chiffon-beachwear-coverup-black.jpg",
+    "name": "Women's Chiffon Beachwear Cover Up - Black",
+    "description": "Elegant lightweight chiffon cover-up perfect for beach and poolside lounging. Flowy silhouette provides modest coverage while keeping you cool and comfortable. Versatile black color complements any swimsuit and transitions easily to casual wear. Quick-drying fabric ideal for hot summer days. Features relaxed fit and stylish design suitable for resort wear.",
+    "rating": {
+      "stars": 4.5,
+      "count": 235
+    },
+    "priceCents": 2070,
+    "keywords": [
+      "robe",
+      "swimsuit",
+      "swimming",
+      "bathing",
+      "apparel"
+    ],
+    "type": "clothing",
+    "sizeChartLink": "images/clothing-size-chart.png",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      {"name": "Black", "hex": "#000000"},
+      {"name": "White", "hex": "#FFFFFF"},
+      {"name": "Coral", "hex": "#FF7F50"},
+      {"name": "Turquoise", "hex": "#40E0D0"}
+    ]
+  },
+  {
+    "id": "aad29d11-ea98-41ee-9285-b916638cac4a",
+    "image": "images/products/round-sunglasses-black.jpg",
+    "name": "Round Sunglasses",
+    "description": "Classic round sunglasses featuring 100% UV protection for ultimate eye safety. Durable metal frame with comfortable nose pads ensures all-day wear. Scratch-resistant lenses maintain clarity and visibility. Timeless design complements various face shapes and personal styles. Includes protective case for safe storage when not in use.",
+    "rating": {
+      "stars": 4.5,
+      "count": 30
+    },
+    "priceCents": 1560,
+    "keywords": [
+      "accessories",
+      "shades"
+    ],
+    "colors": [
+      {"name": "Black", "hex": "#000000"},
+      {"name": "Gold", "hex": "#FFD700"},
+      {"name": "Silver", "hex": "#C0C0C0"}
+    ]
+  },
+  {
+    "id": "04701903-bc79-49c6-bc11-1af7e3651358",
+    "image": "images/products/women-beach-sandals.jpg",
+    "name": "Women's Two Strap Buckle Sandals - Tan",
+    "description": "Comfortable tan sandals with adjustable buckle straps for customized fit. Cushioned footbed provides support during extended wear. Durable rubber sole offers excellent traction on wet and dry surfaces. Classic design pairs perfectly with summer dresses, shorts, or swimwear. Perfect for beach trips, casual outings, or everyday warm-weather wear.",
+    "rating": {
+      "stars": 4.5,
+      "count": 562
+    },
+    "priceCents": 2499,
+    "keywords": [
+      "footwear",
+      "sandals",
+      "womens",
+      "beach",
+      "summer"
+    ],
+    "sizes": ["6", "7", "8", "9", "10", "11"],
+    "colors": [
+      {"name": "Tan", "hex": "#D2B48C"},
+      {"name": "Black", "hex": "#000000"},
+      {"name": "White", "hex": "#FFFFFF"},
+      {"name": "Brown", "hex": "#8B4513"}
+    ]
+  },
+  {
+    "id": "901eb2ca-386d-432e-82f0-6fb1ee7bf969",
+    "image": "images/products/blackout-curtain-set-beige.webp",
+    "name": "Blackout Curtains Set 4-Pack - Beige",
+    "description": "Premium blackout curtains block up to 99% of light for better sleep and privacy. Triple-weave fabric technology also provides thermal insulation to reduce energy costs. Noise-reducing properties create peaceful indoor environment. Rod pocket design allows easy installation on standard curtain rods. Machine washable and wrinkle-resistant for effortless maintenance.",
+    "rating": {
+      "stars": 4.5,
+      "count": 232
+    },
+    "priceCents": 4599,
+    "keywords": [
+      "bedroom",
+      "curtains",
+      "home"
+    ],
+    "colors": [
+      {"name": "Beige", "hex": "#F5F5DC"},
+      {"name": "Gray", "hex": "#808080"},
+      {"name": "Navy", "hex": "#000080"},
+      {"name": "Black", "hex": "#000000"}
+    ]
+  },
+  {
+    "id": "82bb68d7-ebc9-476a-989c-c78a40ee5cd9",
+    "image": "images/products/men-slim-fit-summer-shorts-gray.jpg",
+    "name": "Men's Slim-Fit Summer Shorts",
+    "description": "Stylish slim-fit shorts crafted from lightweight breathable fabric perfect for summer. Modern tailored cut provides contemporary look without sacrificing comfort. Features convenient pockets and zip fly with button closure. Versatile gray color pairs easily with various shirts and shoes. Ideal for casual outings, beach days, or weekend adventures.",
+    "rating": {
+      "stars": 4,
+      "count": 160
+    },
+    "priceCents": 1699,
+    "keywords": [
+      "shorts",
+      "apparel",
+      "mens"
+    ],
+    "type": "clothing",
+    "sizeChartLink": "images/clothing-size-chart.png",
+    "sizes": ["28", "30", "32", "34", "36", "38", "40"],
+    "colors": [
+      {"name": "Gray", "hex": "#808080"},
+      {"name": "Khaki", "hex": "#C3B091"},
+      {"name": "Navy", "hex": "#000080"},
+      {"name": "Black", "hex": "#000000"}
+    ]
+  },
+  {
+    "id": "c2a82c5e-aff4-435f-9975-517cfaba2ece",
+    "image": "images/products/electric-glass-and-steel-hot-water-kettle.webp",
+    "name": "Electric Glass and Steel Hot Tea Water Kettle - 1.7-Liter",
+    "description": "Modern electric kettle with elegant glass body and stainless steel accents. Rapid-boil technology heats 1.7 liters of water in minutes. LED illumination during boiling adds stylish touch to any kitchen. Auto shut-off and boil-dry protection ensure safe operation. Cordless design with 360-degree swivel base offers convenient pouring from any angle.",
+    "rating": {
+      "stars": 5,
+      "count": 846
+    },
+    "priceCents": 3074,
+    "keywords": [
+      "water boiler",
+      "appliances",
+      "kitchen"
+    ]
+  },
+  {
+    "id": "6b07d4e7-f540-454e-8a1e-363f25dbae7d",
+    "image": "images/products/facial-tissue-2-ply-18-boxes.jpg",
+    "name": "Ultra Soft Tissue 2-Ply - 18 Box",
+    "description": "Premium 2-ply facial tissues provide gentle care for sensitive skin. Soft and absorbent design perfect for everyday use. Bulk pack of 18 boxes ensures you're always stocked. Hypoallergenic and dermatologist-tested for peace of mind. Conveniently sized boxes fit perfectly in any room of your home or office.",
+    "rating": {
+      "stars": 4,
+      "count": 99
+    },
+    "priceCents": 2374,
+    "keywords": [
+      "kleenex",
+      "tissues",
+      "kitchen",
+      "tissues box",
+      "napkins"
+    ]
+  },
+  {
+    "id": "a82c6bac-3067-4e68-a5ba-d827ac0be010",
+    "image": "images/products/straw-sunhat.webp",
+    "name": "Straw Lifeguard Sun Hat",
+    "description": "Wide-brim straw hat offers superior sun protection for outdoor activities. Natural woven straw construction provides breathability to keep you cool. Adjustable chin strap ensures secure fit during windy conditions. Classic lifeguard style adds vintage charm to beach or garden outfits. Lightweight and packable design perfect for travel and summer adventures.",
+    "rating": {
+      "stars": 4,
+      "count": 215
+    },
+    "priceCents": 2200,
+    "keywords": [
+      "hats",
+      "straw hats",
+      "summer",
+      "apparel"
+    ],
+    "sizes": ["S/M", "L/XL"],
+    "colors": [
+      {"name": "Natural", "hex": "#F5DEB3"},
+      {"name": "White", "hex": "#FFFFFF"}
+    ]
+  },
+  {
+    "id": "e4f64a65-1377-42bc-89a5-e572d19252e2",
+    "image": "images/products/sky-flower-stud-earrings.webp",
+    "name": "Sterling Silver Sky Flower Stud Earrings",
+    "description": "Delicate sterling silver flower earrings featuring intricate petal details. Hypoallergenic posts safe for sensitive ears with secure butterfly backs. Lightweight design comfortable for all-day wear. Elegant and versatile style complements both casual and formal attire. Comes in beautiful gift box perfect for special occasions.",
+    "rating": {
+      "stars": 4.5,
+      "count": 52
+    },
+    "priceCents": 1799,
+    "keywords": [
+      "jewelry",
+      "accessories",
+      "womens"
+    ]
+  },
+  {
+    "id": "b0f17cc5-8b40-4ca5-9142-b61fe3d98c85",
+    "image": "images/products/women-stretch-popover-hoodie-black.jpg",
+    "name": "Women's Stretch Popover Hoodie",
+    "description": "Comfortable stretch hoodie designed for active lifestyles and casual wear. Moisture-wicking fabric keeps you dry during workouts or daily activities. Quarter-zip design allows easy temperature regulation. Thumbholes in cuffs provide extra coverage and warmth. Flattering fit with side pockets for essentials. Perfect for yoga, running, or lounging.",
+    "rating": {
+      "stars": 4.5,
+      "count": 2465
+    },
+    "priceCents": 1374,
+    "keywords": [
+      "hooded",
+      "hoodies",
+      "sweaters",
+      "womens",
+      "apparel"
+    ],
+    "type": "clothing",
+    "sizeChartLink": "images/clothing-size-chart.png",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      {"name": "Black", "hex": "#000000"},
+      {"name": "Gray", "hex": "#808080"},
+      {"name": "Navy", "hex": "#000080"},
+      {"name": "Purple", "hex": "#800080"}
+    ]
+  },
+  {
+    "id": "a93a101d-79ef-4cf3-a6cf-6dbe532a1b4a",
+    "image": "images/products/bathroom-rug.jpg",
+    "name": "Bathroom Bath Rug Mat 20 x 31 Inch - Grey",
+    "description": "Plush bathroom rug with ultra-soft microfiber surface for luxurious comfort. Highly absorbent material quickly soaks up water to keep floors dry and safe. Non-slip backing prevents sliding on tile or vinyl flooring. Machine washable for easy care and maintenance. Neutral grey color coordinates beautifully with any bathroom decor.",
+    "rating": {
+      "stars": 4.5,
+      "count": 119
+    },
+    "priceCents": 1250,
+    "keywords": [
+      "bathmat",
+      "bathroom",
+      "home"
+    ],
+    "colors": [
+      {"name": "Grey", "hex": "#808080"},
+      {"name": "White", "hex": "#FFFFFF"},
+      {"name": "Navy", "hex": "#000080"},
+      {"name": "Beige", "hex": "#F5F5DC"}
+    ]
+  },
+  {
+    "id": "4f4fbcc2-4e72-45cc-935c-9e13d79cc57f",
+    "image": "images/products/women-knit-ballet-flat-black.jpg",
+    "name": "Women's Knit Ballet Flat",
+    "description": "Elegant knit ballet flats combine style and comfort for everyday wear. Stretchy breathable upper molds to foot shape for personalized fit. Cushioned insole provides support during extended standing or walking. Flexible rubber sole allows natural foot movement. Classic black design transitions seamlessly from office to evening occasions.",
+    "rating": {
+      "stars": 4,
+      "count": 326
+    },
+    "priceCents": 2640,
+    "keywords": [
+      "shoes",
+      "flats",
+      "womens",
+      "footwear"
+    ],
+    "sizes": ["6", "7", "8", "9", "10", "11"],
+    "colors": [
+      {"name": "Black", "hex": "#000000"},
+      {"name": "Gray", "hex": "#808080"},
+      {"name": "Navy", "hex": "#000080"},
+      {"name": "Burgundy", "hex": "#800020"}
+    ]
+  },
+  {
+    "id": "8b5a2ee1-6055-422a-a666-b34ba28b76d4",
+    "image": "images/products/men-golf-polo-t-shirt-blue.jpg",
+    "name": "Men's Regular-Fit Quick-Dry Golf Polo Shirt",
+    "description": "Performance polo shirt engineered with moisture-wicking quick-dry technology. Breathable fabric keeps you cool and comfortable on the golf course or during active pursuits. Classic three-button placket and collar offer timeless style. UV protection built into fabric shields skin from harmful rays. Perfect for golf, tennis, or smart-casual occasions.",
+    "rating": {
+      "stars": 4.5,
+      "count": 2556
+    },
+    "priceCents": 1599,
+    "keywords": [
+      "tshirts",
+      "shirts",
+      "apparel",
+      "mens"
+    ],
+    "type": "clothing",
+    "sizeChartLink": "images/clothing-size-chart.png",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "Blue", "hex": "#4169E1"},
+      {"name": "White", "hex": "#FFFFFF"},
+      {"name": "Black", "hex": "#000000"},
+      {"name": "Red", "hex": "#DC143C"},
+      {"name": "Green", "hex": "#228B22"}
+    ]
+  },
+  {
+    "id": "b86ddc8b-3501-4b17-9889-a3bad6fb585f",
+    "image": "images/products/trash-can-with-foot-pedal-50-liter.jpg",
+    "name": "Trash Can with Foot Pedal - Brushed Stainless Steel",
+    "description": "Large 50-liter stainless steel trash can with hands-free foot pedal operation. Brushed finish resists fingerprints and maintains sleek appearance. Soft-close lid prevents slamming and reduces noise. Removable inner bucket makes trash removal and cleaning easy. Odor-control features keep kitchen fresh. Durable construction built to last for years.",
+    "rating": {
+      "stars": 4.5,
+      "count": 2286
+    },
+    "priceCents": 8300,
+    "keywords": [
+      "garbage",
+      "bins",
+      "cans",
+      "kitchen"
+    ]
+  },
+  {
+    "id": "19c6a64a-5463-4d45-9af8-e41140a4100c",
+    "image": "images/products/duvet-cover-set-blue-twin.jpg",
+    "name": "Duvet Cover Set with Zipper Closure",
+    "description": "Soft duvet cover set includes comforter cover and matching pillowcases. Premium microfiber fabric offers luxurious feel while being easy to care for. Hidden zipper closure keeps duvet securely in place. Corner ties prevent shifting during sleep. Machine washable and wrinkle-resistant for hassle-free maintenance. Transforms bedroom into peaceful retreat.",
+    "rating": {
+      "stars": 4,
+      "count": 456
+    },
+    "priceCents": 2399,
+    "keywords": [
+      "bedroom",
+      "bed sheets",
+      "sheets",
+      "covers",
+      "home"
+    ],
+    "sizes": ["Twin", "Full", "Queen", "King"],
+    "colors": [
+      {"name": "Blue", "hex": "#4682B4"},
+      {"name": "Gray", "hex": "#808080"},
+      {"name": "White", "hex": "#FFFFFF"},
+      {"name": "Sage", "hex": "#87AE73"}
+    ]
+  },
+  {
+    "id": "d2785924-743d-49b3-8f03-ec258e640503",
+    "image": "images/products/women-chunky-beanie-gray.webp",
+    "name": "Women's Chunky Cable Beanie - Gray",
+    "description": "Cozy cable-knit beanie provides warmth and style during cold weather. Chunky knit construction offers superior insulation while remaining soft and comfortable. Stretchy fit accommodates various head sizes without being too tight. Neutral gray color pairs effortlessly with winter coats and scarves. Perfect for skiing, snowboarding, or everyday winter wear.",
+    "rating": {
+      "stars": 5,
+      "count": 83
+    },
+    "priceCents": 1250,
+    "keywords": [
+      "hats",
+      "winter hats",
+      "beanies",
+      "tuques",
+      "apparel",
+      "womens"
+    ],
+    "colors": [
+      {"name": "Gray", "hex": "#808080"},
+      {"name": "Black", "hex": "#000000"},
+      {"name": "Cream", "hex": "#FFFDD0"},
+      {"name": "Burgundy", "hex": "#800020"}
+    ]
+  },
+  {
+    "id": "ee1f7c56-f977-40a4-9642-12ba5072e2b0",
+    "image": "images/products/men-chino-pants-beige.jpg",
+    "name": "Men's Classic-fit Pleated Chino Pants",
+    "description": "Timeless chino pants with classic pleated front for refined look. Comfortable regular fit provides freedom of movement for all-day wear. Durable cotton-blend fabric resists wrinkles and maintains shape. Features belt loops, zip fly, and convenient pockets. Versatile beige color works perfectly with dress shirts or casual polos for various occasions.",
+    "rating": {
+      "stars": 4.5,
+      "count": 9017
+    },
+    "priceCents": 2290,
+    "keywords": [
+      "pants",
+      "apparel",
+      "mens"
+    ],
+    "type": "clothing",
+    "sizeChartLink": "images/clothing-size-chart.png",
+    "sizes": ["30x30", "32x30", "32x32", "34x30", "34x32", "36x30", "36x32", "38x30", "38x32"],
+    "colors": [
+      {"name": "Beige", "hex": "#F5F5DC"},
+      {"name": "Navy", "hex": "#000080"},
+      {"name": "Black", "hex": "#000000"},
+      {"name": "Khaki", "hex": "#C3B091"}
+    ]
+  },
+  {
+    "id": "1c079479-8586-494f-ab53-219325432536",
+    "image": "images/products/men-athletic-shoes-green.jpg",
+    "name": "Men's Athletic Sneaker",
+    "description": "High-performance athletic sneakers designed for serious training and running. Breathable mesh upper promotes airflow to keep feet cool. Responsive cushioning system absorbs impact and returns energy with each step. Durable rubber outsole provides reliable traction on various surfaces. Bold green design adds sporty style to athletic wardrobe.",
+    "rating": {
+      "stars": 4,
+      "count": 229
+    },
+    "priceCents": 3890,
+    "keywords": [
+      "shoes",
+      "running shoes",
+      "footwear",
+      "mens"
+    ],
+    "sizes": ["8", "9", "10", "11", "12", "13", "14"],
+    "colors": [
+      {"name": "Green", "hex": "#228B22"},
+      {"name": "Black", "hex": "#000000"},
+      {"name": "Blue", "hex": "#4169E1"},
+      {"name": "Red", "hex": "#DC143C"}
+    ]
+  },
+  {
+    "id": "4df68c27-fd59-4a6a-bbd1-e754ddb6d53c",
+    "image": "images/products/men-navigator-sunglasses-brown.jpg",
+    "name": "Men's Navigator Sunglasses Pilot",
+    "description": "Classic aviator-style sunglasses with modern appeal. Metal frame construction ensures durability while maintaining lightweight comfort. 100% UV protection shields eyes from harmful sun rays. Adjustable nose pads provide customized fit. Iconic pilot design suits various face shapes and remains timelessly fashionable. Includes protective carrying case.",
+    "rating": {
+      "stars": 3.5,
+      "count": 42
+    },
+    "priceCents": 1690,
+    "keywords": [
+      "sunglasses",
+      "glasses",
+      "accessories",
+      "shades"
+    ],
+    "colors": [
+      {"name": "Brown", "hex": "#8B4513"},
+      {"name": "Black", "hex": "#000000"},
+      {"name": "Gold", "hex": "#FFD700"},
+      {"name": "Silver", "hex": "#C0C0C0"}
+    ]
+  },
+  {
+    "id": "4e37dd03-3b23-4bc6-9ff8-44e112a92c64",
+    "image": "images/products/non-stick-cooking-set-15-pieces.webp",
+    "name": "Non-Stick Cookware Set, Pots, Pans and Utensils - 15 Pieces",
+    "description": "Comprehensive 15-piece cookware set includes everything needed for complete kitchen. Premium non-stick coating ensures effortless cooking and cleanup. Durable aluminum construction provides even heat distribution. Heat-resistant handles stay cool during cooking. Set includes various pot and pan sizes plus essential utensils. Suitable for all stovetops except induction.",
+    "rating": {
+      "stars": 4.5,
+      "count": 511
+    },
+    "priceCents": 6797,
+    "keywords": [
+      "cooking set",
+      "kitchen"
+    ]
+  },
+  {
+    "id": "a434b69f-1bc1-482d-9ce7-cd7f4a66ce8d",
+    "image": "images/products/vanity-mirror-silver.jpg",
+    "name": "Vanity Mirror with Heavy Base - Chrome",
+    "description": "Double-sided vanity mirror features regular and magnifying sides for detailed grooming. Weighted chrome base provides stability on countertops and vanities. 360-degree swivel allows easy positioning at perfect viewing angle. Crystal-clear reflection ensures accurate makeup application and skincare routines. Elegant design complements bathroom or bedroom decor beautifully.",
+    "rating": {
+      "stars": 4.5,
+      "count": 130
+    },
+    "priceCents": 1649,
+    "keywords": [
+      "bathroom",
+      "washroom",
+      "mirrors",
+      "home"
+    ]
+  },
+  {
+    "id": "a45cfa0a-66d6-4dc7-9475-e2b01595f7d7",
+    "image": "images/products/women-french-terry-fleece-jogger-camo.jpg",
+    "name": "Women's Fleece Jogger Sweatpant",
+    "description": "Comfortable fleece joggers perfect for lounging, workouts, or casual outings. Soft French terry fabric provides warmth without overheating. Elastic waistband with adjustable drawstring ensures personalized fit. Tapered leg with ribbed cuffs creates flattering silhouette. Side pockets keep essentials secure. Trendy camo print adds stylish edge to athleisure wardrobe.",
+    "rating": {
+      "stars": 4.5,
+      "count": 248
+    },
+    "priceCents": 2400,
+    "keywords": [
+      "pants",
+      "sweatpants",
+      "jogging",
+      "apparel",
+      "womens"
+    ],
+    "type": "clothing",
+    "sizeChartLink": "images/clothing-size-chart.png",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      {"name": "Camo", "hex": "#78866B"},
+      {"name": "Black", "hex": "#000000"},
+      {"name": "Gray", "hex": "#808080"},
+      {"name": "Navy", "hex": "#000080"}
+    ]
+  },
+  {
+    "id": "d339adf3-e004-4c20-a120-40e8874c66cb",
+    "image": "images/products/double-elongated-twist-french-wire-earrings.webp",
+    "name": "Double Oval Twist French Wire Earrings - Gold",
+    "description": "Elegant gold-tone earrings featuring sophisticated double oval twist design. French wire hooks provide comfortable secure fit for pierced ears. Lightweight construction allows extended wear without discomfort. Versatile style transitions seamlessly from office to evening events. Adds refined touch to any outfit. Comes in elegant gift packaging.",
+    "rating": {
+      "stars": 4.5,
+      "count": 117
+    },
+    "priceCents": 2400,
+    "keywords": [
+      "accessories",
+      "womens"
+    ]
+  },
+  {
+    "id": "d37a651a-d501-483b-aae6-a9659b0757a0",
+    "image": "images/products/round-airtight-food-storage-containers.jpg",
+    "name": "Round Airtight Food Storage Containers - 5 Piece",
+    "description": "BPA-free plastic storage containers with airtight locking lids keep food fresh longer. Clear design allows easy identification of contents. Stackable construction maximizes refrigerator and pantry space. Microwave, freezer, and dishwasher safe for versatile use. Five graduated sizes accommodate various storage needs from leftovers to meal prep.",
+    "rating": {
+      "stars": 4,
+      "count": 126
+    },
+    "priceCents": 2899,
+    "keywords": [
+      "boxes",
+      "food containers",
+      "kitchen"
+    ]
+  },
+  {
+    "id": "0d7f9afa-2efe-4fd9-b0fd-ba5663e0a524",
+    "image": "images/products/coffeemaker-with-glass-carafe-black.jpg",
+    "name": "Coffeemaker with Glass Carafe and Reusable Filter - 25 Oz, Black",
+    "description": "Compact coffee maker brews up to 25 ounces of delicious coffee. Reusable mesh filter eliminates need for paper filters and reduces waste. Programmable features allow wake-up coffee ready when you are. Glass carafe with stay-cool handle ensures safe pouring. Auto shut-off provides peace of mind. Easy to clean and maintain.",
+    "rating": {
+      "stars": 4.5,
+      "count": 1211
+    },
+    "priceCents": 2250,
+    "keywords": [
+      "coffeemakers",
+      "kitchen",
+      "appliances"
+    ]
+  },
+  {
+    "id": "02e3a47e-dd68-467e-9f71-8bf6f723fdae",
+    "image": "images/products/blackout-curtains-black.jpg",
+    "name": "Blackout Curtains Set 42 x 84-Inch - Black, 2 Panels",
+    "description": "Premium blackout curtains block sunlight for optimal sleep and privacy. Triple-weave technology provides thermal insulation reducing heating and cooling costs. Noise-dampening fabric creates peaceful indoor environment. Rod pocket installation fits standard curtain rods. Wrinkle-resistant fabric maintains elegant appearance. Machine washable for convenient care.",
+    "rating": {
+      "stars": 4.5,
+      "count": 363
+    },
+    "priceCents": 3099,
+    "keywords": [
+      "bedroom",
+      "home"
+    ],
+    "colors": [
+      {"name": "Black", "hex": "#000000"},
+      {"name": "Gray", "hex": "#808080"},
+      {"name": "Navy", "hex": "#000080"},
+      {"name": "Cream", "hex": "#FFFDD0"}
+    ]
+  },
+  {
+    "id": "8a53b080-6d40-4a65-ab26-b24ecf700bce",
+    "image": "images/products/cotton-bath-towels-teal.webp",
+    "name": "100% Cotton Bath Towels - 2 Pack, Light Teal",
+    "description": "Luxurious 100% cotton bath towels offer superior absorbency and softness. Dense terry weave provides plush feel while quickly drying skin. Durable double-stitched hems withstand repeated washing. Beautiful light teal color adds spa-like ambiance to bathroom. Generous size provides full coverage. Gets softer with each wash.",
+    "rating": {
+      "stars": 4.5,
+      "count": 93
+    },
+    "priceCents": 2110,
+    "keywords": [
+      "bathroom",
+      "home",
+      "towels"
+    ],
+    "colors": [
+      {"name": "Light Teal", "hex": "#5F9EA0"},
+      {"name": "White", "hex": "#FFFFFF"},
+      {"name": "Gray", "hex": "#808080"},
+      {"name": "Navy", "hex": "#000080"}
+    ]
+  },
+  {
+    "id": "10ed8504-57db-433c-b0a3-fc71a35c88a1",
+    "image": "images/products/knit-athletic-sneakers-pink.webp",
+    "name": "Waterproof Knit Athletic Sneakers - Pink",
+    "description": "Stylish pink athletic sneakers with waterproof technology keep feet dry. Flexible knit upper provides sock-like comfort and breathability. Cushioned midsole delivers responsive support during runs or walks. Durable rubber outsole ensures reliable traction. Lightweight design reduces foot fatigue. Perfect for fitness enthusiasts who value style and performance.",
+    "rating": {
+      "stars": 4,
+      "count": 89
+    },
+    "priceCents": 3390,
+    "keywords": [
+      "shoes",
+      "running shoes",
+      "footwear",
+      "womens"
+    ],
+    "sizes": ["6", "7", "8", "9", "10", "11"],
+    "colors": [
+      {"name": "Pink", "hex": "#FFC0CB"},
+      {"name": "Black", "hex": "#000000"},
+      {"name": "White", "hex": "#FFFFFF"},
+      {"name": "Purple", "hex": "#800080"}
+    ]
+  },
+  {
+    "id": "77a845b1-16ed-4eac-bdf9-5b591882113d",
+    "image": "images/products/countertop-blender-64-oz.jpg",
+    "name": "Countertop Blender - 64oz, 1400 Watts",
+    "description": "Professional-grade blender with powerful 1400-watt motor crushes ice and blends smoothies effortlessly. Large 64-ounce capacity perfect for family-sized batches. Multiple speed settings and pulse function provide precise control. Durable stainless steel blades maintain sharpness through heavy use. BPA-free pitcher with easy-pour spout. Ideal for smoothies, soups, and more.",
+    "rating": {
+      "stars": 4,
+      "count": 3
+    },
+    "priceCents": 10747,
+    "keywords": [
+      "food blenders",
+      "kitchen",
+      "appliances"
+    ]
+  },
+  {
+    "id": "36c64692-677f-4f58-b5ec-0dc2cf109e27",
+    "image": "images/products/floral-mixing-bowl-set.jpg",
+    "name": "10-Piece Mixing Bowl Set with Lids - Floral",
+    "description": "Beautiful floral-print mixing bowl set includes 5 bowls with matching airtight lids. Graduated sizes from small prep bowls to large mixing bowls. Nesting design saves valuable cabinet space. Microwave and dishwasher safe for convenient heating and cleaning. Lids allow leftover storage directly in bowls. Adds charming touch to kitchen while being highly functional.",
+    "rating": {
+      "stars": 5,
+      "count": 679
+    },
+    "priceCents": 3899,
+    "keywords": [
+      "mixing bowls",
+      "baking",
+      "cookware",
+      "kitchen"
+    ]
+  },
+  {
+    "id": "aaa65ef3-8d6f-4eb3-bc9b-a6ea49047d8f",
+    "image": "images/products/kitchen-paper-towels-30-pack.jpg",
+    "name": "2-Ply Kitchen Paper Towels - 30 Pack",
+    "description": "Bulk pack of 30 paper towel rolls ensures you're always stocked. Strong 2-ply construction handles tough messes without tearing. Highly absorbent for efficient cleanup of spills and splatters. Perforated sheets allow easy tearing to size needed. Fits standard paper towel holders. Excellent value for households and businesses.",
+    "rating": {
+      "stars": 4.5,
+      "count": 1045
+    },
+    "priceCents": 5799,
+    "keywords": [
+      "kitchen",
+      "kitchen towels",
+      "tissues"
+    ]
+  },
+  {
+    "id": "bc2847e9-5323-403f-b7cf-57fde044a955",
+    "image": "images/products/men-cozy-fleece-zip-up-hoodie-red.jpg",
+    "name": "Men's Full-Zip Hooded Fleece Sweatshirt",
+    "description": "Warm full-zip hoodie with soft fleece lining for cold weather comfort. Durable front zipper allows easy on and off. Adjustable hood provides extra protection from elements. Two front pockets keep hands warm or store essentials. Ribbed cuffs and hem seal in warmth. Bold red color adds vibrant energy to casual wardrobe.",
+    "rating": {
+      "stars": 4.5,
+      "count": 3157
+    },
+    "priceCents": 2400,
+    "keywords": [
+      "sweaters",
+      "hoodies",
+      "apparel",
+      "mens"
+    ],
+    "type": "clothing",
+    "sizeChartLink": "images/clothing-size-chart.png",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "colors": [
+      {"name": "Red", "hex": "#DC143C"},
+      {"name": "Black", "hex": "#000000"},
+      {"name": "Navy", "hex": "#000080"},
+      {"name": "Gray", "hex": "#808080"},
+      {"name": "Green", "hex": "#228B22"}
+    ]
+  }
+]

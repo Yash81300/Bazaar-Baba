@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Your Orders</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/shared/general.css">
+    <link rel="stylesheet" href="styles/shared/bazaar-baba-header.css">
+    <link rel="stylesheet" href="styles/shared/loading.css">
+    <link rel="stylesheet" href="styles/shared/theme-dark.css">
+    <link rel="stylesheet" href="styles/pages/orders.css">
+
+    <style>      
+      /* Desktop Logo Style */
+      .bazaar-baba-logo {
+        height: 50px;
+        width: auto;
+        object-fit: contain;
+        cursor: pointer;
+        display: block;
+        margin-left: 20px;
+      }
+
+      /* Mobile Logo Style (Icon Only) */
+      .bazaar-baba-mobile-logo {
+        display: none;
+        height: 40px;
+        width: auto;
+        object-fit: contain;
+      }
+
+      .bazaar-baba-logo-container {
+        display: flex;
+        align-items: center;
+      }
+
+      /* Responsive Switch for Mobile Logo */
+      @media (max-width: 575px) {
+        .bazaar-baba-logo {
+          display: none;
+        }
+        .bazaar-baba-mobile-logo {
+          display: block;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bazaar-baba-header">
+      <div class="bazaar-baba-header-left-section">
+        <a href="bazaar-baba.html" class="header-link bazaar-baba-logo-container">
+          <img class="bazaar-baba-logo" id="desktop-logo" src="images/bazaar-baba-logo.png">
+          <img class="bazaar-baba-mobile-logo" id="mobile-logo" src="images/bazaar-baba-mobile.png">
+        </a>
+      </div>
+
+      <div class="bazaar-baba-header-middle-section">
+        <input class="search-bar" type="text" placeholder="Search Bazaar Baba">
+
+        <button class="search-button">
+          <img class="search-icon" src="images/icons/search-icon.png">
+        </button>
+      </div>
+
+      <div class="bazaar-baba-header-right-section">
+        <a class="orders-link" href="orders.html">
+          <div class="orders-text-container">
+          </div>
+          <img class="your-orders-icon" id="orders-logo" src="images/your-orders-logo.png" alt="TEST123">
+        </a>
+
+        <a class="cart-link header-link" href="checkout.html">
+          <img class="cart-icon" src="images/icons/cart-icon.png">
+          <div class="cart-quantity js-cart-quantity">0</div>
+          <div class="cart-text">Cart</div>
+        </a>
+      </div>
+    </div>
+    <div class="main">
+      <div class="page-title">Your Orders</div>
+      <div class="orders-grid js-orders-grid">
+        </div>
+    </div>
+
+    <script src="scripts/theme.js"></script>
+    <script src="scripts/logo-switcher.js"></script>
+    <script type="module" src="scripts/orders.js"></script>
+  </body>
+</html>
