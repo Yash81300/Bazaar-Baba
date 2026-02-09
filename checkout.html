@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/pages/checkout/checkout.css">
+    <link rel="stylesheet" href="styles/pages/checkout/checkout-header.css">
+    <link rel="stylesheet" href="styles/shared/loading.css">
+    <link rel="stylesheet" href="styles/shared/theme-dark.css">
+  </head>
+  <body>
+    <div class="checkout-header">
+      <div class="header-content">
+        
+        <div class="checkout-header-left-section">
+          <a href="bazaar-baba.html" class="header-breadcrumb-link">Home</a> 
+          <span class="header-breadcrumb-divider">/</span> 
+          <span class="header-breadcrumb-current">Cart</span>
+        </div>
+
+        <div class="checkout-header-middle-section">
+          Shopping Cart
+        </div>
+
+        <div class="checkout-header-right-section">
+          </div>
+      </div>
+    </div>
+
+    <div class="main">
+      
+      <div class="checkout-layout">
+        <div class="cart-table-container">
+          
+          <div class="cart-header">
+            <div>Product</div>
+            <div>Price</div>
+            <div>Quantity</div>
+            <div>Subtotal</div>
+          </div>
+
+          <div class="js-order-summary"></div>
+
+          <div class="delivery-section-title">Delivery Options</div>
+          <div class="js-delivery-summary"></div>
+
+        </div>
+
+        <div class="cart-bottom-section">
+          
+          <div class="js-payment-summary"></div>
+
+          <div class="coupon-container">
+            <input type="text" class="coupon-input" placeholder="Coupon Code">
+            <button class="apply-coupon-button">Apply Coupon</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <script src="scripts/theme.js"></script>
+    <script src="scripts/logo-switcher.js"></script>
+    <script type="module" src="scripts/checkout.js"></script>
+  </body>
+</html>

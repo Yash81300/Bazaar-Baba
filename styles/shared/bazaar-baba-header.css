@@ -1,0 +1,271 @@
+.bazaar-baba-header {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.bazaar-baba-header-left-section {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-link {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid transparent;
+  padding: 6px;
+  border-radius: 2px;
+}
+
+.header-link:hover {
+  border: 1px solid transparent;
+}
+
+.bazaar-baba-logo,
+#desktop-logo {
+  width: auto;
+  height: 50px;
+  margin-left: 20px;
+  object-fit: contain;
+  
+}
+
+.amazon-mobile-logo,
+#mobile-logo {
+  display: none;
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* ===============================
+   THEME TOGGLE BUTTON
+   =============================== */
+
+.theme-toggle-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(0, 0, 0, 0);
+  font-size: 20px;
+  line-height: 1;
+
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.25s ease;
+}
+
+.theme-toggle-btn:hover {
+  background: rgba(0, 0, 0, 0.12);
+  transform: scale(1.05);
+}
+
+.theme-toggle-btn:active {
+  transform: scale(0.95);
+}
+
+.bazaar-baba-header-middle-section {
+  flex: 1;
+  max-width: 850px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  flex: 1;
+  width: 0;
+  font-size: 16px;
+  height: 40px;
+  padding-left: 15px;
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  outline: none;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+
+.search-bar:focus {
+  background-color: #ffffff;
+}
+
+.search-button {
+  background-color: #DB4444;
+  width: 45px;
+  height: 40px;
+  border: 1px solid #DB4444;
+  border-radius: 8px;
+  margin-left: 0;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.search-icon {
+  height: 22px;
+  filter: brightness(100);
+}
+
+.bazaar-baba-header-right-section {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+/* --- FIXED ORDERS SECTION --- */
+.orders-link {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000000;
+  margin-right: 25px;
+}
+
+.orders-text-container {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.returns-text {
+  display: block;
+  font-size: 11px;
+}
+
+.orders-text {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.your-orders-icon,
+#orders-logo {
+  width: 25px;
+  height: auto;
+  margin-left: 5px;
+  display: block;
+  object-fit: contain;
+}
+
+.cart-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000000;
+  width: 40px;
+}
+
+.cart-icon {
+  width: 30px;
+  filter: brightness(0);
+}
+
+.cart-quantity {
+  color: #DB4444;
+  position: absolute;
+  top: 1px;
+  left: 2.75px;
+  right: 0;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  pointer-events: none;
+}
+
+.cart-text {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  display: none;
+}
+
+/* --- MOBILE RESPONSIVENESS --- */
+@media (max-width: 575px) {
+  .search-bar {
+    width: 100%;
+  }
+
+  .bazaar-baba-header-left-section {
+    width: unset;
+  }
+
+  .bazaar-baba-logo,
+  #desktop-logo {
+    display: none;
+  }
+
+  .amazon-mobile-logo,
+  #mobile-logo {
+    display: block;
+    height: 40px;
+    margin-left: 10px;
+    
+  }
+
+  .bazaar-baba-header-middle-section {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .bazaar-baba-header-right-section {
+    width: auto;
+    margin-right: 0;
+    padding-right: 10px;
+  }
+
+  .orders-link {
+    display: flex; 
+    margin-right: 10px;
+  }
+
+  .returns-text,
+  .orders-text {
+    display: none;
+  }
+
+  .your-orders-icon,
+  #orders-logo {
+    display: block;
+    width: 30px;
+    margin-left: 0;
+  }
+
+  .cart-link {
+    margin-right: 0;
+    width: auto;
+  }
+}

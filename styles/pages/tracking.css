@@ -1,0 +1,259 @@
+/* ===============================
+   PAGE LAYOUT
+   =============================== */
+.main {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.back-to-orders-link {
+  display: inline-block;
+  margin-bottom: 25px;
+  color: #007185;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.back-to-orders-link:hover {
+  color: #c7511f;
+  text-decoration: underline;
+}
+
+/* ===============================
+   CARD CONTAINER
+   =============================== */
+.order-tracking {
+  border: 1px solid #D5D9D9;
+  border-radius: 8px;
+  background-color: white;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+/* ===============================
+   HEADER STRIP
+   =============================== */
+.delivery-date {
+  background-color: #F0F2F2;
+  border-bottom: 1px solid #D5D9D9;
+  padding: 20px 35px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #0F1111;
+}
+
+/* ===============================
+   CONTENT AREA
+   =============================== */
+.order-details-grid {
+  padding: 30px 35px 40px 35px;
+}
+
+/* ===============================
+   PRODUCT LIST
+   =============================== */
+.product-row {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 22px;
+  margin-bottom: 22px;
+  border-bottom: 1px solid #D5D9D9;
+}
+
+.product-row:last-of-type {
+  border-bottom: none;
+}
+
+.product-image {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0F1111;
+  margin-bottom: 6px;
+}
+
+.product-quantity {
+  font-size: 15px;
+  color: #565959;
+}
+
+/* ===============================
+   PROGRESS BAR (ROUNDED LINE)
+   =============================== */
+.progress-container {
+  position: relative;
+  margin-top: 40px;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+.progress-bar-background {
+  position: absolute;
+  top: 42.5px;    
+  left: 12.5%;       
+  right: 12.5%;      
+  height: 8px;  
+  background-color: #E0E0E0; 
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #DB4444;
+  transition: width 0.5s ease-in-out; 
+}
+
+.progress-icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: relative;
+  z-index: 2; 
+}
+
+/* --- ICONS: SOFT SQUARES --- */
+.status-check-icon {
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+  border-radius: 8px; 
+  
+  background-color: white;
+  border: 2px solid #E0E0E0;
+  color: #757575;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+
+  
+  box-shadow: 0 0 0 8px white; 
+}
+
+.current-status-icon {
+  background-color: #DB4444; 
+  border-color: #DB4444;     
+  color: white;
+}
+
+.completed-status-icon {
+  background-color: #DB4444; 
+  border-color: #DB4444;     
+  color: white;
+}
+
+.progress-labels-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 12px;
+}
+
+.progress-label {
+  text-align: center;
+  font-size: 14px;
+  color: #565959;
+  padding: 0 5px;
+}
+
+.progress-label-current,
+.current-status {
+  color: #DB4444; 
+  font-weight: 700;
+}
+
+.completed-label {
+  color: #DB4444; 
+  font-weight: 500;
+}
+
+/* ===============================
+   MOBILE RESPONSIVE
+   =============================== */
+@media (max-width: 600px) {
+  .main {
+    padding: 0 15px;
+    margin-top: 80px;
+  }
+
+  .order-details-grid {
+    padding: 20px;
+  }
+
+  .delivery-date {
+    padding: 15px 20px;
+    font-size: 18px;
+  }
+
+  .product-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .product-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  /* --- VERTICAL PROGRESS BAR --- */
+  .progress-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-top: 20px;
+  }
+
+  .progress-icons,
+  .progress-labels-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+  .progress-icons {
+    gap: 40px;
+    width: 40px;
+    align-items: center;
+    position: relative;
+  }
+
+  .progress-labels-container {
+    gap: 40px;
+    margin-top: 0;
+    justify-content: space-around;
+    padding: 6px 0;
+  }
+
+  .progress-label {
+    text-align: left;
+    height: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .progress-bar-background {
+    width: 8px; 
+    height: auto;
+    top: 36px;
+    bottom: 36px;
+    left: 36px; 
+    right: auto;
+  }
+  
+  .progress-bar {
+    width: 100% !important; 
+    background: #DB4444;
+  }
+}
