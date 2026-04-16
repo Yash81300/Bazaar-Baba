@@ -45,7 +45,7 @@ const configs = {
   },
   
   [ENV.PRODUCTION]: {
-    API_BASE_URL: 'https://api.bazaarbaba.com',
+    API_BASE_URL: 'https://bazaar-baba-backend.onrender.com',
     API_TIMEOUT: 10000,
     ENABLE_LOGGING: false,
     ENABLE_DEBUG: false
